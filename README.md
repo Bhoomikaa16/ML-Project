@@ -154,3 +154,5 @@ they use `data/processed/flotation_hourly.csv`, which is already in the reposito
 ## Reference
 
 - Dataset: E. Magalhães Oliveira, *Quality Prediction in a Mining Process*, Kaggle (2017), CC0.
+# ML-Project
+A machine learning project that uses real-world iron ore plant data to predict silica levels, identify quality issues, and understand plant operating conditions using different ML techniques.
