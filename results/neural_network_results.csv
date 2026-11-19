@@ -1,0 +1,5 @@
+,R2,RMSE,MAE
+Baseline (last hour),0.6076,0.7106,0.4328
+Lasso,0.6392,0.6814,0.4709
+Network A (light regularization),-0.2655,1.2762,0.9784
+Network B (L2 + dropout),0.6054,0.7126,0.5192

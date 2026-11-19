@@ -1,0 +1,8 @@
+,R2,RMSE,MAE
+Baseline (last hour),0.6076,0.7106,0.4328
+MLR - sensors only,-0.1263,1.2039,0.9045
+MLR - last lab result only,0.6456,0.6753,0.4611
+MLR - all 23 inputs,0.6172,0.7019,0.4901
+Ridge,0.6188,0.7004,0.4894
+Lasso,0.6392,0.6814,0.4709
+Random Forest,0.5755,0.7391,0.5558

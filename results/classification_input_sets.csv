@@ -1,0 +1,19 @@
+model,inputs,F1,ROC-AUC
+Logistic Regression,sensors only,0.4013,0.6762
+Logistic Regression,last lab result only,0.7295,0.9061
+Logistic Regression,both (23 inputs),0.7508,0.906
+KNN,sensors only,0.08,0.5531
+KNN,last lab result only,0.7316,0.8614
+KNN,both (23 inputs),0.5115,0.7897
+Naive Bayes,sensors only,0.2771,0.6059
+Naive Bayes,last lab result only,0.7599,0.9025
+Naive Bayes,both (23 inputs),0.7362,0.8809
+SVM (RBF kernel),sensors only,0.4142,0.6702
+SVM (RBF kernel),last lab result only,0.7307,0.9065
+SVM (RBF kernel),both (23 inputs),0.704,0.8938
+Decision Tree,sensors only,0.4416,0.6556
+Decision Tree,last lab result only,0.7455,0.8868
+Decision Tree,both (23 inputs),0.6836,0.8744
+Random Forest,sensors only,0.4069,0.6828
+Random Forest,last lab result only,0.7405,0.8996
+Random Forest,both (23 inputs),0.7387,0.8951
